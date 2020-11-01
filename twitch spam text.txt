@@ -1,0 +1,8 @@
+AsexualPride 
+BisexualPride 
+GayPride 
+GenderFluidPride 
+IntersexPride 
+LesbianPride 
+NonBinaryPride 
+TransgenderPride 

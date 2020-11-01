@@ -1,0 +1,104 @@
+
+
+
+hello world!
+2020-09-19 10:34:19.188098
+
+
+hello world!
+2020-09-19 10:34:34.284637
+help
+look
+use laptop
+play text game
+quit
+read files
+browse web
+https://github.com/JMcB17/Zarya
+use messenger app
+nasa social media team
+picture
+control station module
+no
+go aft
+quit
+logoff
+log off
+turn off laptop
+l
+skip
+go aft
+l
+use greenhouse
+use camera
+use toilet
+use sleeping bag
+i
+use camera
+use camera
+i
+go aft
+l
+go front
+use laptop
+use messenging app
+use messenger app
+nasa social media team
+beautiful picture
+turn off laptop
+l
+go front
+l
+go aft
+l
+go nadir
+go aft
+l
+h
+search sleeping bag
+use sleeping bag
+
+go to sleep
+
+go aft
+go front
+l
+search storage containers
+search containers
+take all
+
+
+i
+
+dfas
+read paper
+use paper
+use drive
+h
+use jumpsuit
+inspect drive
+i
+take laptop
+(<class 'KeyError'>, KeyError('laptop'), <traceback object at 0x000001E13841EC08>)
+
+
+hello world!
+2020-09-19 10:41:51.189352
+skip
+search container
+search containers
+take all
+use laptop
+l
+leave
+take laptop
+use laptop
+read files
+use drive
+turn off laptop
+i
+use drive
+use laptop
+read files
+turn off laptop
+use paper
