@@ -1,0 +1,73 @@
+Sub Write
+  For i = 1 To Text.GetLength(TextToWrite)
+    TextWindow.Write(Text.GetSubText(TextToWrite, i, 1))
+    Program.Delay(Math.GetRandomNumber(50))
+  EndFor
+  TextWindow.WriteLine("")
+  Program.Delay(500)
+EndSub
+
+TextWindow.WriteLine("You have been invited to the bubble show by The Senate.")
+Program.Delay(1000)
+TextWindow.WriteLine("You have a ticket to the bubble show.")
+Input:
+Action = TextWindow.Read()
+If Action = "use ticket" Or Action = "go to bubble show" Then
+  Goto BubbleShow
+Else
+  TextWindow.WriteLine("That's not an option.")
+  Goto Input
+EndIf
+  
+BubbleShow:
+TextWindow.WriteLine("You go to the bubble show.")
+Program.Delay(1000)
+TextWindow.WriteLine("The Senate approaches and sits in your pod thingy.")
+Program.Delay(1000)
+TextToWrite = "Did you ever hear the tragedy of Darth Plagueis the wise?"
+Write()
+
+YesNo:
+Choice = TextWindow.Read()
+If Choice = "no" Then
+  Goto Yes
+ElseIf Choice = "yes" Then
+  TextToWrite = "oh"
+  Write()
+  Program.End()
+ElseIf Choice = "yea i heard his apprentice was a real doofus" Then
+  TextWindow.WriteLine("The Senate whispers-")
+  Program.Delay(500)
+  TextToWrite = "EXECUTE ORDER 66"
+  Write()
+  Program.End()
+Else
+  TextWindow.WriteLine("That's not an option.")
+  Goto YesNo
+EndIf
+
+Yes:
+TextToWrite = "I thought not."
+Write()
+TextToWrite = "It's not a story the Jedi would tell you."
+Write()
+TextToWrite = "It's a Sith legend."
+Write()
+TextToWrite = "Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the"
+Write()
+TextToWrite = "midichlorians to create life."
+Write()
+TextToWrite = "He had such a knowledge of the dark side that he could even keep the ones he cared about from dying."
+Write()
+TextToWrite = "The dark side of the Force is a pathway to many abilities some consider to be unnatural."
+Write()
+TextToWrite = "He became so powerful..."
+Write()
+TextToWrite = "The only thing he was afraid of was losing his power, which eventually, of course, he did."
+Write()
+TextToWrite = "Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep."
+Write()
+TextToWrite = "It's ironic he could save others from death, but not himself."
+Write()
+
+OkieDokie = TextWindow.Read()

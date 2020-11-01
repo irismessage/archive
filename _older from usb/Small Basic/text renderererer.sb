@@ -1,0 +1,17 @@
+Sub Write
+  TextToWrite = TextWindow.Read()
+  For i = 1 To Text.GetLength(TextToWrite)
+    TextWindow.Write(Text.GetSubText(TextToWrite, i, 1))
+    If Text.GetSubText(TextToWrite, i, 1) = " " Then
+      Program.Delay(Math.GetRandomNumber(100) + 50)
+    Else
+      Program.Delay(Math.GetRandomNumber(100))
+    EndIf
+  EndFor
+  TextWindow.WriteLine("")
+  Program.Delay(500)
+EndSub
+
+Start:
+Write()
+Goto Start

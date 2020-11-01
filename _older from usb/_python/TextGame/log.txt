@@ -1,0 +1,171 @@
+
+
+
+hello world!
+2017-03-30 20:08:13.860007
+(<class 'TypeError'>, TypeError('must be str, not int',), <traceback object at 0x000002018A2784C8>)
+
+
+hello world!
+2017-03-30 20:09:09.331610
+(<class 'TypeError'>, TypeError("stutter() got an unexpected keyword argument 'sep'",), <traceback object at 0x0000022AECD18508>)
+
+
+hello world!
+2017-03-30 20:10:32.725021
+
+
+hello world!
+2017-03-30 20:12:04.555212
+(<class 'TypeError'>, TypeError("stutter() got an unexpected keyword argument 'sep'",), <traceback object at 0x00000209CD6984C8>)
+
+
+hello world!
+2017-03-30 20:12:39.411686
+
+
+hello world!
+2017-03-30 20:13:07.998847
+q
+
+
+hello world!
+2017-03-30 21:01:23.531875
+
+
+hello world!
+2017-03-30 21:03:01.431083
+go through aft port
+use bed
+(<class 'UnboundLocalError'>, UnboundLocalError("local variable 'FicEpoch' referenced before assignment",), <traceback object at 0x000001F354DD85C8>)
+
+
+hello world!
+2017-03-30 21:04:01.508802
+gt aft
+use bed
+use bed
+
+
+hello world!
+2017-03-30 21:09:37.443432
+gt aft
+use bed
+use bed
+q
+
+
+hello world!
+2017-07-10 11:15:54.996870
+help
+look around
+take all
+show inventory
+use laptop
+turn off
+go through front port
+go through aft port
+go through aft port
+skip
+look
+use camera
+use laptop
+use messenger app
+nasa social media team
+beautiful picture
+play text game
+quit
+quit
+turn off
+quit
+
+
+hello world!
+2017-09-29 15:52:49.761515
+help
+look around
+searhc
+search containers
+take all
+show inventery
+i
+leave container
+use laptop
+read files
+control station module
+yes
+
+
+hello world!
+2017-09-29 15:56:40.299119
+skip
+help
+i
+take laptop
+s container
+search container
+search containers
+take all
+use drivbe
+use drive
+use laptop
+read files
+use jumpsuit
+turn off laptop
+i
+use paper
+use jumpsuit
+examine jumpsuit
+search containers
+(<class 'KeyError'>, KeyError('Objects',), <traceback object at 0x044B05D0>)
+
+
+hello world!
+2017-09-29 15:58:54.763336
+search containers
+look
+take all
+lave
+leave
+leave
+drop all
+skip
+help
+drop paper
+go aft
+l
+aft
+go throught aft
+go through aft
+l
+take camera
+use camera
+go through front
+use camera
+take laptop
+use laptop
+use messenger app
+nasa social media team
+beautiful picture
+browse web
+reddit.com
+www.reddit.com
+browse web
+www.reddit.com
+browse web
+www.google.com
+browse web
+https://www.google.com/
+turn off laptop
+noskip
+potato
+quit
+
+
+hello world!
+2018-11-01 14:25:30.223790
+help
+look
+use laptop
+control station module
+yes

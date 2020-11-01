@@ -1,0 +1,76 @@
+'this code is a mess
+
+Sub Chop
+  End = 0
+  StartLocation = 1
+  EndLocation = 1
+  i = 1
+  ParaLength = Text.GetLength(Paragraph)
+  ParaLength = ParaLength + 1
+  TextWindow.WriteLine(" ")
+  TextWindow.WriteLine("Chopping...")
+  Program.Delay(500)
+  TextWindow.WriteLine("Individual words are:")
+  TextWindow.WriteLine(" ")
+  Program.Delay(500)
+  While End = 0
+    Get = 0
+    While Get = 0
+      If Text.GetSubText(Paragraph, EndLocation, 1) = " " Then
+        Get = 1
+      ElseIf EndLocation = ParaLength Then
+        Get = 1
+        End = 1
+      Else
+        EndLocation = EndLocation + 1
+      EndIf
+    EndWhile
+    Length = EndLocation - StartLocation
+    Words[i] = Text.GetSubText(Paragraph, StartLocation, Length)
+    TextWindow.WriteLine(Words[i])
+    EndLocation = EndLocation + 1
+    StartLocation = EndLocation
+    i = i + 1
+  EndWhile
+  TextWindow.WriteLine(" ")
+  Program.Delay(500)
+EndSub
+
+Sub Tally
+  For i = 1 To 100
+    Tallies[i] = 0
+  EndFor
+  TextWindow.WriteLine("Tallying...")
+  Program.Delay(500)
+  For i = 1 To 100
+    For j = 1 To Array.GetItemCount(Words)
+      If Text.GetLength(Words[j]) = i Then
+        Tallies[i] = Tallies[i] + 1
+      EndIf
+    EndFor
+  EndFor
+EndSub
+
+Sub Print
+  TextWindow.WriteLine("The results are in:")
+  Program.Delay(500)
+  TextWindow.WriteLine(" ")
+  For i = 1 To 100 
+    If Tallies[i] = 0 Then
+      Program.Delay(1)
+    Else
+      TextWindow.Write(i)
+      TextWindow.Write(": ")
+      TextWindow.WriteLine(Tallies[i])
+    EndIf
+  EndFor
+  TextWindow.WriteLine(" ")
+  Program.Delay(500)
+EndSub
+
+Start:
+Paragraph = TextWindow.Read()
+Chop()
+Tally()
+Print()
+Goto Start

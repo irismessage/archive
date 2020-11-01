@@ -1,0 +1,1 @@
+{'Monday': ['Design', 'ComputerScience', 'Maths', 'RE', 'Art'], 'Friday': ['History', 'History', 'PE', 'Maths', 'Music'], 'Thursday': ['English', 'Maths', 'Design', 'Dance', 'Science'], 'Wednesday': ['Geography', 'English', 'French', 'PHSE', 'Science'], 'Tuesday': ['English', 'Science', 'RE', 'Geography', 'French']}

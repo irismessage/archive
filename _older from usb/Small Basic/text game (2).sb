@@ -1,0 +1,42 @@
+Sub Write
+  For z = 1 To Text.GetLength(String)
+    TextWindow.Write(Text.GetSubText(String, z, 1))
+    If Text.GetSubText(String, z, 1) = " " Then
+      Program.Delay(Math.GetRandomNumber(50) + 50)
+    Else
+      Program.Delay(Math.GetRandomNumber(50))
+    EndIf
+  EndFor
+  TextWindow.WriteLine("")
+EndSub
+
+Room = "Zarya"
+
+Commands[1] = "help"
+Functions[1] = "Shows a list of commands"
+Commands[2] = "look around"
+Functions[2] = "Tells you what is in the room"
+Commands[3] = "pick up [item]"
+Functions[3] = "Puts a specified item in your inventory, if it is available"
+Commands[4] = "show inventory"
+Functions[4] = "Tells you what is in your inventory"
+
+String = "For a list of commands, type 'help'"
+Write()
+
+Read:
+
+TextWindow.WriteLine(" ")
+Command = TextWindow.Read()
+TextWindow.WriteLine(" ")
+If Command = "help" Then
+  String = "Commands are:"
+  For i = 1 To Array.GetItemCount(Commands)
+    String = Commands[i]
+    Write()
+    String = Functions[i]
+    Write()
+  EndFor
+EndIf
+
+Goto Read
