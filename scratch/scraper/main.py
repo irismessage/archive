@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
+import json
 import typing
 import urllib.parse
 from pathlib import Path
+
 import requests
 
 
@@ -39,19 +41,25 @@ def download_project(project_id: int) -> bytes:
 
 
 def main():
-    output_folder = Path().parent
+    output_folder = Path().resolve().parent
 
     username = input('Scratch username: ')
     print('Getting projects list')
     user_projects = get_user_projects(username)
     print(f'Got list of {len(user_projects)} projects')
 
+    projects_file_path = output_folder / 'projects.json'
+    with open(projects_file_path, 'w') as projects_file:
+        json.dump(user_projects, projects_file, indent=4)
+    print(f'Saved list of projects to {projects_file_path}')
+
     print('Downloading projects')
     for project in user_projects:
-        print(f"Downloading project {project['name']} with id {project['id']}")
+        print(f"Downloading project {project['title']} with id {project['id']}")
         project_bytes = download_project(project['id'])
 
-        output_file_path = output_folder.joinpath(project['name']).with_suffix('sb3')
+        # todo: sterilise the name for characters like '?'
+        output_file_path = output_folder.joinpath(project['title']).with_suffix('.sb3')
         print(f'Saving to {output_file_path}')
         with open(output_file_path, 'wb') as output_file:
             output_file.write(project_bytes)
