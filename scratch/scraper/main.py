@@ -64,7 +64,8 @@ def main():
         project_bytes = download_project(project['id'])
 
         project_title_sterilised = sterilise_filename(project['title'])
-        output_file_path = output_folder.joinpath(project_title_sterilised).with_suffix('.sb3')
+        # todo: get it to save as .sb3 instead, needs a different endpoint or authorisation or something
+        output_file_path = output_folder.joinpath(project_title_sterilised).with_suffix('.json')
         print(f'Saving to {output_file_path}')
         with open(output_file_path, 'wb') as output_file:
             output_file.write(project_bytes)

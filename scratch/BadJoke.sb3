@@ -1,0 +1,146 @@
+{
+	"objName": "Stage",
+	"scripts": [[20,
+			16,
+			[["whenGreenFlag"],
+				["wait:elapsed:from:", 13],
+				["playDrum", 2, 0.15],
+				["playDrum", 1, 0.15],
+				["wait:elapsed:from:", 0.25],
+				["playSound:", "cymbal crash"]]]],
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": -1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		},
+		{
+			"soundName": "cymbal crash",
+			"soundID": -1,
+			"md5": "fa2c9da1d4fd70207ab749851853cb50.wav",
+			"sampleCount": 25219,
+			"rate": 22050,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "spotlight-stage",
+			"baseLayerID": -1,
+			"baseLayerMD5": "d26bf4c3980163d9106625cc2ea6c50d.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": -1,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Boy",
+			"scripts": [[22,
+					16,
+					[["whenGreenFlag"],
+						["lookLike:", "boy3-b"],
+						["wait:elapsed:from:", 3],
+						["say:duration:elapsed:from:", "Okay - let's hear it!", 3],
+						["wait:elapsed:from:", 3],
+						["lookLike:", "boy3-a"],
+						["say:duration:elapsed:from:", "How does it smell?", 3],
+						["wait:elapsed:from:", 2],
+						["lookLike:", "boy3-b"],
+						["say:duration:elapsed:from:", "GROAN!!!", 3]]]],
+			"sounds": [{
+					"soundName": "pop",
+					"soundID": -1,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "boy3-a",
+					"baseLayerID": -1,
+					"baseLayerMD5": "fa1e07e29aacd99efdc1b0afdb60c18d.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 100,
+					"rotationCenterY": 154
+				},
+				{
+					"costumeName": "boy3-b",
+					"baseLayerID": -1,
+					"baseLayerMD5": "03f465c7fef5f95bb593a47afce89169.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 58,
+					"rotationCenterY": 154
+				}],
+			"currentCostumeIndex": 1,
+			"scratchX": 64,
+			"scratchY": -50,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Girl",
+			"scripts": [[25,
+					20,
+					[["whenGreenFlag"],
+						["say:duration:elapsed:from:", "Hey, I've got a joke for you!", 3],
+						["wait:elapsed:from:", 3],
+						["say:duration:elapsed:from:", "My dog's got no nose!", 3],
+						["wait:elapsed:from:", 3],
+						["say:duration:elapsed:from:", "Terrible!", 2]]]],
+			"sounds": [{
+					"soundName": "pop",
+					"soundID": -1,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "girl5-a",
+					"baseLayerID": -1,
+					"baseLayerMD5": "238bd95a026b964832230cfb7cba4506.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 58,
+					"rotationCenterY": 164
+				},
+				{
+					"costumeName": "girl5-b",
+					"baseLayerID": -1,
+					"baseLayerMD5": "af75b13c9ad353a9fe2b9df56746a919.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 74,
+					"rotationCenterY": 164
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -60,
+			"scratchY": -52,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"hasCloudData": false,
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko\/20100101 Firefox\/30.0",
+		"swfVersion": "v436.1",
+		"scriptCount": 3,
+		"flashVersion": "MAC 17,0,0,169",
+		"videoOn": false,
+		"spriteCount": 2,
+		"projectID": "65631750"
+	}
+}

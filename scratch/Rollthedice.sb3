@@ -1,0 +1,113 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": -1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "backdrop1",
+			"baseLayerID": -1,
+			"baseLayerMD5": "739b5e2a2435f6e1ec2993791b423146.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": -1,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Dice",
+			"scripts": [[58,
+					47,
+					[["whenKeyPressed", "space"],
+						["timerReset"],
+						["doRepeat",
+							5,
+							[["lookLike:", ["randomFrom:to:", 1, 6]],
+								["playSound:", "pop"],
+								["wait:elapsed:from:", ["+", ["timer"], 0.2]]]]]]],
+			"sounds": [{
+					"soundName": "pop",
+					"soundID": -1,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": -1,
+					"baseLayerMD5": "4c1d3963e9758b67007b1f110ccf8828.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 60,
+					"rotationCenterY": 66
+				},
+				{
+					"costumeName": "costume2",
+					"baseLayerID": -1,
+					"baseLayerMD5": "666d4f717641ba320452dac5e37c5e2b.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 80,
+					"rotationCenterY": 83
+				},
+				{
+					"costumeName": "costume3",
+					"baseLayerID": -1,
+					"baseLayerMD5": "5207c7e738489fcc76a08da8688214d3.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 73,
+					"rotationCenterY": 79
+				},
+				{
+					"costumeName": "costume4",
+					"baseLayerID": -1,
+					"baseLayerMD5": "505b8c2042bc586863704c439ac5ff33.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 85,
+					"rotationCenterY": 91
+				},
+				{
+					"costumeName": "costume5",
+					"baseLayerID": -1,
+					"baseLayerMD5": "dff4b426ee718e3967238f08e9c6b52f.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 74,
+					"rotationCenterY": 80
+				},
+				{
+					"costumeName": "costume6",
+					"baseLayerID": -1,
+					"baseLayerMD5": "be1fda115ccb57f930e4df029d749cb2.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 85,
+					"rotationCenterY": 91
+				}],
+			"currentCostumeIndex": 5,
+			"scratchX": 4,
+			"scratchY": -23,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"videoOn": false,
+		"flashVersion": "WIN 18,0,0,194",
+		"swfVersion": "v437",
+		"hasCloudData": false,
+		"spriteCount": 1,
+		"userAgent": "Mozilla\/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.0.2357.130 Safari\/537.36",
+		"scriptCount": 1,
+		"projectID": "41444640"
+	}
+}

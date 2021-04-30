@@ -1,0 +1,182 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": -1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "Portal Backdrop",
+			"baseLayerID": -1,
+			"baseLayerMD5": "c8880e6ad0c4b3324a73f556042347d1.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": -1,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"target": "ChellCat",
+			"cmd": "xpos",
+			"param": null,
+			"color": 4877524,
+			"label": "ChellCat: x position",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 5,
+			"y": 5,
+			"visible": false
+		},
+		{
+			"target": "Blue portal",
+			"cmd": "xpos",
+			"param": null,
+			"color": 4877524,
+			"label": "Blue portal: x position",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 7,
+			"y": 8,
+			"visible": false
+		},
+		{
+			"target": "Blue portal",
+			"cmd": "ypos",
+			"param": null,
+			"color": 4877524,
+			"label": "Blue portal: y position",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": -1,
+			"y": 39,
+			"visible": false
+		},
+		{
+			"objName": "Blue portal",
+			"sounds": [{
+					"soundName": "pop",
+					"soundID": -1,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "Blue portal",
+					"baseLayerID": -1,
+					"baseLayerMD5": "33a85ae49a60fca9348dd699144c0735.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 65,
+					"rotationCenterY": 108
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -200,
+			"scratchY": 0,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Orange portal",
+			"sounds": [{
+					"soundName": "pop",
+					"soundID": -1,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "Orange portal",
+					"baseLayerID": -1,
+					"baseLayerMD5": "498b3ac400c774da8a1fb743219b7085.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 77,
+					"rotationCenterY": 108
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 200,
+			"scratchY": 0,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 3,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "ChellCat",
+			"scripts": [[49,
+					40,
+					[["whenGreenFlag"],
+						["doForever",
+							[["doIfElse",
+									[">", ["xpos"], "195"],
+									[["hide"], ["gotoX:y:", -200, 0], ["show"]],
+									[["forward:", 10]]]]]]],
+				[54, 326, [["whenGreenFlag"], ["gotoX:y:", 0, 0]]]],
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": -1,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": -1,
+					"baseLayerMD5": "1e4e726689a88c972dd61a90bcb54340.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 57,
+					"rotationCenterY": 47
+				},
+				{
+					"costumeName": "costume2",
+					"baseLayerID": -1,
+					"baseLayerMD5": "6e8bd9ae68fdb02b7e1e3df656a75635.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				}],
+			"currentCostumeIndex": 1,
+			"scratchX": 170,
+			"scratchY": 0,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "none",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"spriteCount": 3,
+		"swfVersion": "v430",
+		"userAgent": "Mozilla\/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/39.0.2171.95 Safari\/537.36",
+		"projectID": "41366122",
+		"videoOn": false,
+		"flashVersion": "WIN 16,0,0,235",
+		"scriptCount": 2
+	}
+}
