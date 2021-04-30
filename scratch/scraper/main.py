@@ -40,6 +40,11 @@ def download_project(project_id: int) -> bytes:
     return r.content
 
 
+def sterilise_filename(filename: str) -> str:
+    # thanks to https://stackoverflow.com/a/295152/8766519 for the idea
+    return ''.join([s for s in filename if s.isalnum()])
+
+
 def main():
     output_folder = Path().resolve().parent
 
@@ -58,8 +63,8 @@ def main():
         print(f"Downloading project {project['title']} with id {project['id']}")
         project_bytes = download_project(project['id'])
 
-        # todo: sterilise the name for characters like '?'
-        output_file_path = output_folder.joinpath(project['title']).with_suffix('.sb3')
+        project_title_sterilised = sterilise_filename(project['title'])
+        output_file_path = output_folder.joinpath(project_title_sterilised).with_suffix('.sb3')
         print(f'Saving to {output_file_path}')
         with open(output_file_path, 'wb') as output_file:
             output_file.write(project_bytes)

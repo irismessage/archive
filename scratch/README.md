@@ -6,3 +6,4 @@ I'd dump all the actual scratch files here if I found a way
 Maybe like:    
 https://scratch.mit.edu/discuss/topic/324578/    
 https://github.com/scraping-scratch/scripts
+Edit: I wrote my own program to get the files, find it in the `scraper` folder
