@@ -1,0 +1,251 @@
+[4.0K]  .
+├── [ 377]  actions.txt
+├── [2.7K]  anti gamer countermeasures.py
+├── [  74]  be gay do crime.py
+├── [1.5K]  bois.py
+├── [1.5K]  cartography.py
+├── [ 468]  christmas eve eve eve.py
+├── [ 20K]  colour cube layout.docx
+├── [ 600]  colour cube.py
+├── [ 214]  conjecture.py
+├── [ 131]  credit card generator.py
+├── [1.1K]  cs assess 2020 challenge 11 decode.py
+├── [ 713]  cs assess 2020 challenge 12 out the box.py
+├── [ 604]  decoder.py
+├── [4.0K]  game thing maybe
+│   └── [2.0K]  skill tree concept.py
+├── [4.0K]  gdrive
+│   └── [4.0K]  Python
+│       ├── [3.2K]  letters.py
+│       ├── [4.0K]  Microbit
+│       │   ├── [584K]  binary.hex
+│       │   ├── [575K]  compass.hex
+│       │   ├── [4.0K]  Emsey
+│       │   │   ├── [4.0K]  bitbot.py
+│       │   │   ├── [1.1K]  happy buzzer.py
+│       │   │   ├── [ 744]  mode.py
+│       │   │   ├── [ 28M]  mu-0.9.13.win.exe
+│       │   │   ├── [4.4K]  neopixel.py
+│       │   │   ├── [ 971]  quotes.py
+│       │   │   ├── [5.2K]  subs.py
+│       │   │   └── [ 451]  ultrasonic.py
+│       │   ├── [ 286]  hippy hippoy poppy pappy bithday.py
+│       │   ├── [652K]  message.hex
+│       │   ├── [ 329]  message.py
+│       │   ├── [1.9K]  messenger.py
+│       │   ├── [578K]  microbit-J-INC.hex
+│       │   ├── [573K]  microbit-Numbers.hex
+│       │   ├── [652K]  radio (10).hex
+│       │   ├── [ 331]  radio (6).py
+│       │   └── [ 617]  radio(7).py
+│       ├── [4.0K]  Power of teamwork
+│       │   ├── [2.1K]  power of computering.py
+│       │   └── [855K]  words.txt
+│       ├── [4.0K]  Reddit Bot
+│       │   ├── [ 260]  actions.txt
+│       │   ├── [999K]  Activate the droids - Copy.png
+│       │   ├── [1.1M]  Activate the droids.png
+│       │   ├── [193K]  drds.jpeg
+│       │   ├── [ 28K]  gungs.jpeg
+│       │   ├── [4.0K]  runbot a.py
+│       │   ├── [3.6K]  runbot c.py
+│       │   ├── [3.6K]  runbot c - selectscan.py
+│       │   ├── [ 950]  runbot c - selectshow.py
+│       │   ├── [ 69K]  sids2.jpg
+│       │   ├── [ 67K]  sids.jpg
+│       │   └── [8.3K]  snoo.png
+│       └── [4.0K]  Zarya
+│           ├── [ 365]  proton.py
+│           ├── [ 478]  protontestflight.py
+│           ├── [   0]  translations.xlsx
+│           └── [ 20K]  zarya.py
+├── [ 261]  le strem.py
+├── [3.7K]  letters.py
+├── [1.4K]  line finder.py
+├── [1.8K]  moon base level 8 challenge 1 progress.py
+├── [1.2K]  moon base level 8 challenge 2 progress.py
+├── [1.1K]  my lord is that legal.py
+├── [4.0K]  _older from usb
+│   ├── [4.0K]  _python
+│   │   ├── [ 500]  ASCII Run.py
+│   │   ├── [1.1K]  astropi.py
+│   │   ├── [ 190]  average out.py
+│   │   ├── [4.0K]  better pattern.py
+│   │   ├── [ 101]  binary.py
+│   │   ├── [ 500]  boot sequence.py
+│   │   ├── [ 202]  c a t.py
+│   │   ├── [ 822]  CCC.py
+│   │   ├── [ 533]  cipher.py
+│   │   ├── [2.8K]  congruence.py
+│   │   ├── [ 345]  convert to binary.py
+│   │   ├── [4.0K]  Counters
+│   │   │   ├── [  80]  Exponetial Counter.py
+│   │   │   ├── [  78]  Infinite Counter.py
+│   │   │   └── [  75]  Random Binary Counter.py
+│   │   ├── [  78]  cursorpos.py
+│   │   ├── [ 13K]  Dog Simulator.py
+│   │   ├── [4.0K]  enCode
+│   │   │   ├── [3.6K]  deCoder.py
+│   │   │   └── [3.8K]  enCoder.py
+│   │   ├── [ 373]  flip dilf.py
+│   │   ├── [3.1K]  fortune for u.py
+│   │   ├── [4.0K]  From Book
+│   │   │   ├── [ 557]  Ghost Game.py
+│   │   │   └── [ 187]  Hello World.py
+│   │   ├── [ 673]  hailing frequencies.py
+│   │   ├── [  42]  infinite recursive.bat
+│   │   ├── [ 455]  inspect test.py
+│   │   ├── [ 219]  iterative method.py
+│   │   ├── [ 760]  lesson get.py
+│   │   ├── [  15]  lesson.txt
+│   │   ├── [3.5K]  letters.py
+│   │   ├── [1.8K]  line finder.py
+│   │   ├── [ 38M]  listdict.txt
+│   │   ├── [1.4K]  mangle.py
+│   │   ├── [  58]  minutes.py
+│   │   ├── [  31]  moretest.py
+│   │   ├── [ 418]  music.py
+│   │   ├── [ 606]  name gen.py
+│   │   ├── [  93]  new day.py
+│   │   ├── [4.0K]  OCRTunes
+│   │   │   ├── [ 145]  hash.py
+│   │   │   ├── [1.2M]  J276-03-T2-Jun18.pdf
+│   │   │   └── [ 721]  server.py
+│   │   ├── [3.1M]  old words.txt
+│   │   ├── [ 953]  password.py
+│   │   ├── [ 10M]  pattern1.txt
+│   │   ├── [107K]  pattern2.txt
+│   │   ├── [ 10M]  pattern3.txt
+│   │   ├── [ 10M]  pattern4.txt
+│   │   ├── [ 10M]  pattern5.txt
+│   │   ├── [107K]  pattern6.txt
+│   │   ├── [3.6K]  pattern.py
+│   │   ├── [ 501]  periodic table write thing I guess.py
+│   │   ├── [ 41M]  pgonline python.pdf
+│   │   ├── [ 254]  phasers on stun.py
+│   │   ├── [2.3K]  postman problem.py
+│   │   ├── [1.3K]  Random Number Generator.py
+│   │   ├── [ 333]  RAYMOND SIMULATOR.py
+│   │   ├── [ 266]  recursive.py
+│   │   ├── [4.0K]  Remover
+│   │   │   ├── [ 241]  collate.py
+│   │   │   ├── [ 326]  dictionary.py
+│   │   │   ├── [ 35M]  dict.txt
+│   │   │   ├── [ 339]  download.py
+│   │   │   ├── [ 38M]  listdict.txt
+│   │   │   ├── [ 313]  nolist dictionary.py
+│   │   │   ├── [ 544]  parse.py
+│   │   │   └── [ 418]  remover.py
+│   │   ├── [1.1K]  repattern.py
+│   │   ├── [3.6K]  rosary.py
+│   │   ├── [ 362]  setup.py
+│   │   ├── [ 645]  S H A K E S P E A R E.py
+│   │   ├── [2.0K]  skill tree concept.py
+│   │   ├── [ 320]  stutter.py
+│   │   ├── [1.5K]  test.py
+│   │   ├── [4.0K]  TextGame
+│   │   │   ├── [2.3K]  log.txt
+│   │   │   ├── [ 351]  proton.py
+│   │   │   ├── [ 460]  protontestflight.py
+│   │   │   ├── [4.0K]  __pycache__
+│   │   │   │   ├── [8.7K]  so_meta.cpython-34.pyc
+│   │   │   │   └── [ 13K]  so_meta.cpython-36.pyc
+│   │   │   └── [ 19K]  zarya.py
+│   │   ├── [ 535]  The Answerer.py
+│   │   ├── [ 234]  thing.txt
+│   │   ├── [ 277]  timetable set.py
+│   │   ├── [ 317]  timetable.txt
+│   │   ├── [1.2K]  truth table.py
+│   │   ├── [ 465]  ttrs.py
+│   │   └── [855K]  words.txt
+│   └── [4.0K]  Small Basic
+│       ├── [4.5K]  shredder.exe
+│       ├── [ 12K]  shredder.pdb
+│       ├── [1.6K]  shredder.sb
+│       ├── [259K]  SmallBasicLibrary.dll
+│       ├── [4.0K]  text game (2).exe
+│       ├── [ 12K]  text game (2).pdb
+│       ├── [ 994]  text game (2).sb
+│       ├── [5.5K]  text game.exe
+│       ├── [ 12K]  text game.pdb
+│       ├── [2.3K]  text game.sb
+│       ├── [3.0K]  text renderererer.exe
+│       ├── [ 12K]  text renderererer.pdb
+│       ├── [ 405]  text renderererer.sb
+│       └── [2.2K]  tragedy.sb
+├── [4.0K]  password generator
+│   ├── [1.3K]  password.py
+│   ├── [1.9K]  password-refactor.py
+│   └── [855K]  words.txt
+├── [2.5K]  pattern.py
+├── [ 289]  pieces.py
+├── [6.1K]  poop fighting game essentials cyberstart.py
+├── [  54]  README.md
+├── [ 21K]  receipt with case we prove,.txt
+├── [ 195]  revenge on alexa.py
+├── [3.7K]  rosary.py
+├── [4.0K]  runbot a test.py
+├── [3.7K]  runbotc131.py
+├── [3.8K]  runbotc131restrc.py
+├── [5.5K]  runbotc133refact.py
+├── [3.7K]  scan.py
+├── [4.0K]  scratch
+│   ├── [ 21K]  aMaze.json
+│   ├── [ 21K]  aMaze.sb3
+│   ├── [3.6K]  BadJoke.json
+│   ├── [3.6K]  BadJoke.sb3
+│   ├── [5.9K]  Clones.json
+│   ├── [5.9K]  Clones.sb3
+│   ├── [ 15K]  Dancers.json
+│   ├── [ 15K]  Dancers.sb3
+│   ├── [ 22K]  DeflectrSpheres.json
+│   ├── [ 22K]  DeflectrSpheres.sb3
+│   ├── [5.7K]  EscapetheDragon.json
+│   ├── [5.7K]  Escape the Dragon.sb3
+│   ├── [5.7K]  EscapetheDragon.sb3
+│   ├── [5.7K]  Intro.json
+│   ├── [5.7K]  Intro.sb3
+│   ├── [8.8K]  Monkeymayhem.json
+│   ├── [8.8K]  Monkey mayhem.sb3
+│   ├── [8.8K]  Monkeymayhem.sb3
+│   ├── [ 88K]  MonsterInfector.json
+│   ├── [ 88K]  MonsterInfector.sb3
+│   ├── [ 17K]  MusicPlayer.json
+│   ├── [ 17K]  Music Player.sb3
+│   ├── [ 17K]  MusicPlayer.sb3
+│   ├── [ 12K]  PhysicsEngine.json
+│   ├── [ 12K]  Physics Engine.sb3
+│   ├── [ 12K]  PhysicsEngine.sb3
+│   ├── [117K]  Pong.json
+│   ├── [117K]  Pong.sb3
+│   ├── [4.0K]  Portal.json
+│   ├── [4.0K]  Portal.sb3
+│   ├── [ 48K]  projects.json
+│   ├── [ 366]  README.md
+│   ├── [2.8K]  Rollthedice.json
+│   ├── [2.8K]  Roll the dice.sb3
+│   ├── [2.8K]  Rollthedice.sb3
+│   ├── [4.0K]  scraper
+│   │   ├── [2.6K]  main.py
+│   │   └── [  94]  requirements.txt
+│   ├── [ 29K]  SecurePasswordGenerator.json
+│   ├── [ 29K]  SecurePasswordGenerator.sb3
+│   ├── [ 35K]  ShareIt.json
+│   ├── [ 35K]  Share It.sb3
+│   ├── [ 35K]  ShareIt.sb3
+│   ├── [ 77K]  Summercountdownclock.json
+│   ├── [ 77K]  Summercountdownclock.sb3
+│   ├── [ 16K]  TextRenderEngine.json
+│   ├── [ 16K]  TextRenderEngine.sb3
+│   ├── [ 18K]  TheScratchShowEp1.json
+│   ├── [ 18K]  TheScratchShowEp1.sb3
+│   ├── [ 18K]  TheScratchShowEp2.json
+│   └── [ 18K]  TheScratchShowEp2.sb3
+├── [ 399]  shakespeare any% tas.py
+├── [5.4M]  shakespeare.txt
+├── [ 736]  show.py
+├── [ 409]  SUVAT.py
+├── [   0]  tree.txt
+└── [ 126]  twitch spam text.txt
+
+21 directories, 227 files
